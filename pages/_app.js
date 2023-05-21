@@ -3,6 +3,7 @@ import { Fragment, useEffect, useState } from "react";
 import Preloader from "../src/components/Preloader";
 import { animation } from "../src/utils";
 import "../styles/globals.css";
+import "../styles/custom.css";
 
 function MyApp({ Component, pageProps }) {
   const [loader, setLoader] = useState(true);
