@@ -1,0 +1,66 @@
+/* @import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap";
+@import "https://fonts.googleapis.com/css?family=Lato:400,700,900,900&display=swap"; */
+@import "https://use.fontawesome.com/releases/v5.7.2/css/all.css";
+@import "../public/css/bootstrap.min";
+@import "../public/demo/style";
+
+@import "swiper/css";
+@import "../public/css/animate.min.css";
+@import "../public/css/owl.carousel.min.css";
+@import "../public/css/owl.theme.default.min.css";
+@import "../public/css/flaticon.css";
+@import "../public/css/dropdown-effects/fade-down.css";
+@import "../public/css/magnific-popup.css";
+@import "../public/css/timetable.css";
+@import "../public/css/menu.css";
+@import "../public/css/style.css";
+@import "../public/css/responsive.css";
+
+.owl-carousel {
+  display: block !important;
+}
+
+.swiper .ip-box {
+  text-align: center;
+  padding: 0 12px 60px;
+  margin: 0 !important;
+}
+
+.swiper .sbox-3,
+.swiper .review-2,
+.swiper .sbox-5 {
+  margin: 0 0px 40px;
+}
+
+img.mfp-img {
+  box-shadow: 0 0 8px rgb(0 0 0 / 60%);
+  position: absolute;
+  max-height: 392px;
+  padding: 0 !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mfp-img-container .mfp-content {
+  max-width: 400px !important;
+}
+.mfp-img-container .mfp-close {
+  top: -110px;
+  right: -24px;
+}
+
+.stricky-fixed .headtoppart {
+  display: none;
+}
+.stricky-fixed .menu {
+  position: fixed;
+  top: 0px;
+  margin-top: 0px;
+  z-index: 500;
+  display: block;
+  left: 0px;
+}
+
+.blue-color {
+  color: #00a3c8 !important;
+}

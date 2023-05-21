@@ -1,0 +1,55 @@
+/**
+ * Owl Carousel v2.2.1
+ * Copyright 2013-2017 David Deutsch
+ * Licensed under  ()
+ */
+.swiper-pagination-bullets,
+.owl-nav {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+.owl-nav {
+  margin-top: 10px;
+}
+.owl-nav [class*="owl-"] {
+  color: #fff;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #d6d6d6;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.owl-nav [class*="owl-"]:hover {
+  background: #869791;
+  color: #fff;
+  text-decoration: none;
+}
+.owl-nav .disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.owl-nav.disabled + .swiper-pagination-bullets {
+  margin-top: 10px;
+}
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  display: inline-block;
+  zoom: 1;
+}
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #d6d6d6;
+  /* display: block; */
+  -webkit-backface-visibility: visible;
+  transition: opacity 0.2s ease;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.swiper-pagination-bullets
+  .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.swiper-pagination-bullets .swiper-pagination-bullet:hover {
+  background: #869791;
+}
