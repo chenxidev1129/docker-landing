@@ -1,5 +1,5 @@
 import React from "react";
-import Counter from "../Counter";
+// import Counter from "../Counter";
 
 const Demo4Statistic3 = () => {
   return (
@@ -37,7 +37,7 @@ const Demo4Statistic3 = () => {
                       {/* Text */}
                       <h5 className="statistic-number steelblue-color">
                         9,
-                        <Counter end={632} />
+                        {/* <Counter end={632} /> */}
                       </h5>
                       <p>Happy Patients</p>
                     </div>
@@ -49,7 +49,7 @@ const Demo4Statistic3 = () => {
                       <span className="flaticon-137-doctor blue-color" />
                       {/* Text */}
                       <h5 className="statistic-number steelblue-color">
-                        <Counter end={178} />
+                        {/* <Counter end={178} /> */}
                       </h5>
                       <p>Qualified Doctors</p>
                     </div>
@@ -61,7 +61,7 @@ const Demo4Statistic3 = () => {
                       <span className="flaticon-065-hospital-bed blue-color" />
                       {/* Text */}
                       <h5 className="statistic-number steelblue-color">
-                        <Counter end={864} />
+                        {/* <Counter end={864} /> */}
                       </h5>
                       <p>Clinic Rooms</p>
                     </div>
