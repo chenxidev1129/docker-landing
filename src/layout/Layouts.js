@@ -27,16 +27,16 @@ const Layouts = ({ children, header, footer }) => {
   };
   const getHeader = () => {
     switch (header) {
-      case 2:
-        return <Header2 toggleMenu={() => openClick()} toggle={toggle} />;
-      case 3:
-        return <Header3 toggleMenu={() => openClick()} toggle={toggle} />;
-      case 4:
-        return <Header4 toggleMenu={() => openClick()} toggle={toggle} />;
-      case 5:
-        return <Header5 toggleMenu={() => openClick()} toggle={toggle} />;
-      case 6:
-        return <Header6 toggleMenu={() => openClick()} toggle={toggle} />;
+      // case 2:
+      //   return <Header2 toggleMenu={() => openClick()} toggle={toggle} />;
+      // case 3:
+      //   return <Header3 toggleMenu={() => openClick()} toggle={toggle} />;
+      // case 4:
+      //   return <Header4 toggleMenu={() => openClick()} toggle={toggle} />;
+      // case 5:
+      //   return <Header5 toggleMenu={() => openClick()} toggle={toggle} />;
+      // case 6:
+      //   return <Header6 toggleMenu={() => openClick()} toggle={toggle} />;
 
       default:
         return <Header1 toggleMenu={() => openClick()} toggle={toggle} />;

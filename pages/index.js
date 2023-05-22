@@ -20,21 +20,21 @@ const Home = () => {
   return (
     <Layouts header={3} footer={2}>
       <HeroPanel />
-      <AboutPanel />
-      <About5 />
+      {/* <AboutPanel /> */}
+      {/* <About5 /> */}
       <ServicesPanel />
-      <Info2 />
+      {/* <Info2 />
       <Info6 />
       <Video1 />
       <Testimonials2 />
       <Demo1Doctors1 />
       <Demo1Info8 />
       <Tabs1 />
-      {/* <Statistic1 /> */}
+      <Statistic1 />
       <Demo1Pricing1 />
       <Banner7 />
       <Demo1Blog1 />
-      <Demo1Banner2 />
+      <Demo1Banner2 /> */}
     </Layouts>
   );
 };
