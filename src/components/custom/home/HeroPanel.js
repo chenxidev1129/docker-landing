@@ -18,7 +18,10 @@ const HeroPanel = () => {
                             </h2>
                             {/* Text */}
                             <p className="p-md">
-                                Client has a small place to provide different physiotherapy services. he needs a very simple landing page, just a one pager website that contains short descriptions of each services with a photo maybe.
+                                Premium landing page template created to offer a
+                                perfect solution for medical clinics, hospitals,
+                                personal doctors and everyone else involved in
+                                health services.
                             </p>
                             {/* Button */}
                             <Link href="/about-us">
