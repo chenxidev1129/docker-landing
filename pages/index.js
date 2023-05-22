@@ -12,8 +12,8 @@ import Demo1Doctors1 from "../src/components/Demo-1/Demo1Doctors1";
 import Demo1Info8 from "../src/components/Demo-1/Demo1Info8";
 import Demo1Pricing1 from "../src/components/Demo-1/Demo1Pricing1";
 import AboutPanel from "../src/components/custom/home/AboutPanel";
+import AllServicesTabsPanel from "../src/components/custom/home/AllServicesTabsPanel";
 import HeroPanel from "../src/components/custom/home/HeroPanel";
-import ServicesPanel from "../src/components/custom/home/ServicesPanel";
 import Layouts from "../src/layout/Layouts";
 
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
       <HeroPanel />
       {/* <AboutPanel /> */}
       {/* <About5 /> */}
-      <ServicesPanel />
+      <AllServicesTabsPanel />
       {/* <Info2 />
       <Info6 />
       <Video1 />

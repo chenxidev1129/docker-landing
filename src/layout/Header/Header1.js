@@ -85,9 +85,6 @@ const Header1 = ({ toggleMenu, toggle }) => {
               />
             </a>
           </div>
-          {/* MAIN MENU */}
-          <nav className="wsmenu clearfix">
-          </nav>
           {/* END MAIN MENU */}
         </div>
       </div>
