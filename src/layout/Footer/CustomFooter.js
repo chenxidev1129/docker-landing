@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 const CustomFooter = () => {
@@ -11,8 +12,9 @@ const CustomFooter = () => {
             <div className="footer-info mb-40">
               {/* Footer Logo */}
               {/* For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 80  pixels) */}
-              <img
-                src="images/custom/icon-big-black.png"
+              <Image
+                src="/images/custom/icon-big-black.png"
+                width={166}
                 height={40}
                 alt="footer-logo"
               />

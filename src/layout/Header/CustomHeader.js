@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import MobileMenu from "../MobileMenu";
+import Image from "next/image";
 
 const CustomHeader = ({ toggleMenu, toggle }) => {
     return (
@@ -17,8 +18,9 @@ const CustomHeader = ({ toggleMenu, toggle }) => {
                     </a>
                 </Link>
                 <span className="smllogo">
-                    <img
-                        src="images/custom/icon-big-black.png"
+                    <Image
+                        src="/images/custom/icon-big-black.png"
+                        width={166}
                         height={40}
                         alt="mobile-logo"
                     />
@@ -82,8 +84,9 @@ const CustomHeader = ({ toggleMenu, toggle }) => {
                     {/* For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 80 pixels) */}
                     <div className="desktoplogo">
                         <Link href="/">
-                            <img
-                                src="images/custom/icon-big-black.png"
+                            <Image
+                                src="/images/custom/icon-big-black.png"
+                                width={166}
                                 height={40}
                                 alt="header-logo"
                             />
