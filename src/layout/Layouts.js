@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { aTagClick, dataImage, stickyNav } from "../utils";
+import Footer1 from "./Footer/Footer1";
 import Footer2 from "./Footer/Footer2";
 import Footer3 from "./Footer/Footer3";
 import Footer4 from "./Footer/Footer4";
@@ -10,6 +11,9 @@ import Header3 from "./Header/Header3";
 import Header4 from "./Header/Header4";
 import Header5 from "./Header/Header5";
 import Header6 from "./Header/Header6";
+import CustomHeader from "./Header/CustomHeader";
+import CustomFooter from "./Footer/CustomFooter";
+import MobileMenu from "./MobileMenu";
 
 const Layouts = ({ children, header, footer }) => {
   const [toggle, setToggle] = useState(false);
@@ -27,23 +31,27 @@ const Layouts = ({ children, header, footer }) => {
   };
   const getHeader = () => {
     switch (header) {
-      // case 2:
-      //   return <Header2 toggleMenu={() => openClick()} toggle={toggle} />;
-      // case 3:
-      //   return <Header3 toggleMenu={() => openClick()} toggle={toggle} />;
-      // case 4:
-      //   return <Header4 toggleMenu={() => openClick()} toggle={toggle} />;
-      // case 5:
-      //   return <Header5 toggleMenu={() => openClick()} toggle={toggle} />;
-      // case 6:
-      //   return <Header6 toggleMenu={() => openClick()} toggle={toggle} />;
+      case 1:
+        return <Header1 toggleMenu={() => openClick()} toggle={toggle} />;
+      case 2:
+        return <Header2 toggleMenu={() => openClick()} toggle={toggle} />;
+      case 3:
+        return <Header3 toggleMenu={() => openClick()} toggle={toggle} />;
+      case 4:
+        return <Header4 toggleMenu={() => openClick()} toggle={toggle} />;
+      case 5:
+        return <Header5 toggleMenu={() => openClick()} toggle={toggle} />;
+      case 6:
+        return <Header6 toggleMenu={() => openClick()} toggle={toggle} />;
 
       default:
-        return <Header1 toggleMenu={() => openClick()} toggle={toggle} />;
+        return <CustomHeader toggleMenu={() => openClick()} toggle={toggle} />;
     }
   };
   const getFooter = () => {
     switch (footer) {
+      case 1:
+        return <Footer1 />;
       case 2:
         return <Footer2 />;
       case 3:
@@ -54,13 +62,13 @@ const Layouts = ({ children, header, footer }) => {
         return <Footer5 />;
 
       default:
-        return <Footer4 />;
+        return <CustomFooter />;
     }
   };
   return (
     <div id="page" className="page-wrapper demo">
       {getHeader()}
-      {/* <MobileMenu /> */}
+      <MobileMenu />
       {children}
       {getFooter()}
     </div>

@@ -1,12 +1,12 @@
-import TermsPage from "../src/components/Terms/TermsPage";
+import TermsPanel from "../src/components/custom/home/TermsPanel";
 import Layouts from "../src/layout/Layouts";
 import PageBanner from "../src/layout/PageBanner";
 
 const Terms = () => {
   return (
     <Layouts>
-      <PageBanner pageTitle="Terms & Privacy" />
-      <TermsPage />
+      <PageBanner pageTitle="Datenschutzrichtlinien" />
+      <TermsPanel />
     </Layouts>
   );
 };

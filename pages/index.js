@@ -4,7 +4,7 @@ import Layouts from "../src/layout/Layouts";
 
 const Home = () => {
   return (
-    <Layouts header={3} footer={2}>
+    <Layouts header={0} footer={0}>
       <HeroPanel />
       <AllServicesTabsPanel />
     </Layouts>

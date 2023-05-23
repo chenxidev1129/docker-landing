@@ -24,7 +24,7 @@ const HeroPanel = () => {
                                 health services.
                             </p>
                             {/* Button */}
-                            <Link href="/about-us">
+                            <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
                                 <a className="btn btn-blue blue-hover">
                                     More About Clinic
                                 </a>

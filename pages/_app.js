@@ -25,14 +25,14 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
         <title>
-          MedService - Medical & Medical Health Landing Page Template
+          Physio Stützpunkt
         </title>
         <link
           rel="shortcut icon"
-          href="images/favicon.ico"
+          href="images/custom/icon-small.png"
           type="image/x-icon"
         />
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon"></link>
+        <link rel="icon" href="images/custom/icon-small.png" type="image/x-icon"></link>
       </Head>
       {loader && <Preloader />}
       <Component {...pageProps} />

@@ -100,6 +100,12 @@ const AllServicesTabsPanel = () => {
                   <p>
                     Krankengymnastik ist eine Therapieform, bei der Bewegungen gezielt eingesetzt werden, um den Körper zu mobilisieren und zu stärken. Dabei werden individuelle Übungen durchgeführt, die auf die Bedürfnisse des jeweiligen Patienten abgestimmt sind.Das Ziel der Krankengymnastik ist es, Schmerzen zu lindern, die Beweglichkeit zu verbessern, die Körperhaltung zu korrigieren und die Muskulatur zu kräftigen. Die klassische Krankengymnastik umfasst Übungen zur Kräftigung und Dehnung der Muskulatur, welche die Körperhaltung stabilisieren.Die Krankengymnastik wird immer individuell auf die Bedürfnisse des Patienten abgestimmt und richtet sich nach den Beschwerden und Zielen des Therapieprozesses.
                   </p>
+                  {/* Button */}
+                  <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
+                    <a className="btn btn-blue blue-hover mt-30">
+                      View More Details
+                    </a>
+                  </Link>
                 </Tab.Pane>
                 {/* END TAB-1 CONTENT */}
                 {/* TAB-2 CONTENT */}
@@ -118,6 +124,12 @@ const AllServicesTabsPanel = () => {
                     Bewegungseinschränkungen zu behandeln. Dabei werden verschiedene Techniken angewendet, wie z.B.
                     Mobilisation und Manipulation von Gelenken, Dehnung von Muskeln und Faszien, sowie spezielle Grifftechniken, um Verspannungen und Verklebungen zu lösen. Ziel der manuellen Therapie ist es, die Beweglichkeit von Gelenken und Weichteilen zu verbessern, Schmerzen zu lindern und die Funktion des Bewegungsapparates wiederherzustellen.
                   </p>
+                  {/* Button */}
+                  <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
+                    <a className="btn btn-blue blue-hover mt-30">
+                      View More Details
+                    </a>
+                  </Link>
                 </Tab.Pane>
                 {/* END TAB-2 CONTENT */}
                 {/* TAB-3 CONTENT */}
@@ -133,6 +145,12 @@ const AllServicesTabsPanel = () => {
                   <p>
                     Die Sportphysiotherapie spezialisiert sich sich auf die Behandlung und Betreuung von Sportlern und sportbegeisterten Menschen. Der Physiotherapeut hilft dabei, Verletzungen vorzubeugen, ihre körperliche Leistungsfähigkeit zu optimieren und Verletzungen zu behandeln, die während des Trainings oder Wettkampfs auftreten können.
                   </p>
+                  {/* Button */}
+                  <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
+                    <a className="btn btn-blue blue-hover mt-30">
+                      View More Details
+                    </a>
+                  </Link>
                 </Tab.Pane>
                 {/* END TAB-3 CONTENT */}
                 {/* TAB-4 CONTENT */}
@@ -150,6 +168,12 @@ const AllServicesTabsPanel = () => {
                     Durch die Anwendung des Tapes auf bestimmte Körperbereiche können
                     Muskelverspannungen reduziert und die Durchblutung gefördert werden. Zudem kann das Tape zur Unterstützung bei der Regeneration nach Verletzungen, Operationen oder bei chronischen Erkrankungen eingesetzt werden.
                   </p>
+                  {/* Button */}
+                  <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
+                    <a className="btn btn-blue blue-hover mt-30">
+                      View More Details
+                    </a>
+                  </Link>
                 </Tab.Pane>
                 {/* END TAB-4 CONTENT */}
                 {/* TAB-5 CONTENT */}
@@ -166,6 +190,12 @@ const AllServicesTabsPanel = () => {
                     Die Manuelle Lymphdrainage ist eine spezielle Form der Massage, die darauf abzielt, das Lymphsystem des Körpers zu stimulieren. Dabei wird durch sanfte, rhythmische Bewegungen des Therapeuten der Lymphfluss angeregt und somit die Absorption von Lymphflüssigkeit und die Entgiftung des Körpers verbessert.
                     Die Therapie wird häufig bei Störungen des Lymphsystems eingesetzt, beispielsweise bei Lymphödemen oder Schwellungen. Durch die Stimulation des Lymphsystems können Schmerzen und Schwellungen gelindert werden.
                   </p>
+                  {/* Button */}
+                  <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
+                    <a className="btn btn-blue blue-hover mt-30">
+                      View More Details
+                    </a>
+                  </Link>
                 </Tab.Pane>
                 {/* END TAB-5 CONTENT */}
                 {/* TAB-6 CONTENT */}
@@ -183,6 +213,12 @@ const AllServicesTabsPanel = () => {
                     Massagen nutzen verschiedene Techniken wie Kneten, Streichen, Klopfen und Druck, um Muskelverspannungen und Schmerzen zu lösen und die Durchblutung zu verbessern.
                     Klassische, medizinische Massagen können bei vielen Beschwerden helfen, wie zum Beispiel bei Rückenschmerzen, Verspannungen im Nacken- und Schulterbereich, Kopfschmerzen oder auch bei postoperativen Schmerzen.
                   </p>
+                  {/* Button */}
+                  <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
+                    <a className="btn btn-blue blue-hover mt-30">
+                      View More Details
+                    </a>
+                  </Link>
                 </Tab.Pane>
                 {/* END TAB-6 CONTENT */}
                 {/* TAB-7 CONTENT */}
@@ -198,6 +234,12 @@ const AllServicesTabsPanel = () => {
                   <p>
                     Die craniomandibuläre Dysfunktion (CMD) ist eine Störung, die im Zusammenhang mit dem Kiefergelenk und den umgebenden Muskeln, Nerven und Blutgefäßen auftritt. Eine CMD kann verschiedene Symptome verursachen, wie z.B. Schmerzen im Bereich des Kiefers, Nacken, Kopfschmerzen, Schwindel oder Tinnitus. Ursachen für CMD sind oft Zahnfehlstellungen, Stress, Verletzungen oder Überbeanspruchung der Kiefermuskulatur. Die Behandlung von CMD umfasst häufig eine Kombination aus Therapien wie manuelle Therapie, klassischer Physiotherapie sowie Muskelentspannungstechniken.
                   </p>
+                  {/* Button */}
+                  <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
+                    <a className="btn btn-blue blue-hover mt-30">
+                      View More Details
+                    </a>
+                  </Link>
                 </Tab.Pane>
                 {/* END TAB-7 CONTENT */}
                 {/* TAB-8 CONTENT */}
@@ -214,6 +256,12 @@ const AllServicesTabsPanel = () => {
                     Die Elektrotherapie ist eine physiotherapeutische
                     Behandlungsmethode, bei der elektrischer Strom eingesetzt wird, um Gewebe im Körper zu stimulieren. Dabei werden elektrische Impulse gezielt auf bestimmte Körperbereiche übertragen, um Schmerzen zu lindern, die Muskelkraft zu verbessern, die Durchblutung zu fördern und Entzündungen zu bekämpfen.
                   </p>
+                  {/* Button */}
+                  <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
+                    <a className="btn btn-blue blue-hover mt-30">
+                      View More Details
+                    </a>
+                  </Link>
                 </Tab.Pane>
                 {/* END TAB-8 CONTENT */}
                 {/* TAB-9 CONTENT */}
@@ -230,6 +278,12 @@ const AllServicesTabsPanel = () => {
                     Die Wärmetherapie ist eine Art der Behandlung von Schmerzen oder
                     Verletzungen durch die Anwendung von Wärme. Die Wärme kann auf verschiedene Weise auf den Körper aufgebracht werden, zum Beispiel durch warme Kompressen oder Infrarotstrahlung.Die Wärme hilft dabei, die Durchblutung zu verbessern und die Muskeln zu entspannen, was Schmerzen lindert und die Heilung fördert.
                   </p>
+                  {/* Button */}
+                  <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
+                    <a className="btn btn-blue blue-hover mt-30">
+                      View More Details
+                    </a>
+                  </Link>
                 </Tab.Pane>
                 {/* END TAB-9 CONTENT */}
                 {/* TAB-10 CONTENT */}
@@ -245,6 +299,12 @@ const AllServicesTabsPanel = () => {
                   <p>
                     Die Kältetherapie ist eine medizinische Anwendung, bei der Kälte zur Behandlung von Verletzungen und Schmerzen eingesetzt wird.Die Kälte wirkt entzündungshemmend und schmerzlindernd, da sie die Durchblutung reduziert und dadurch Schwellungen und Entzündungen abbaut. Die Behandlung kann auch die Muskelsteifigkeit verringern und die Erholung von Verletzungen oder Operationen beschleunigen.
                   </p>
+                  {/* Button */}
+                  <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
+                    <a className="btn btn-blue blue-hover mt-30">
+                      View More Details
+                    </a>
+                  </Link>
                 </Tab.Pane>
                 {/* END TAB-10 CONTENT */}
                 {/* TAB-11 CONTENT */}
@@ -260,6 +320,12 @@ const AllServicesTabsPanel = () => {
                   <p>
                     Die Hausbesuche der Physiotherapie sind eine Form der ambulanten Versorgung, bei der ein Physiotherapeut direkt zum Patienten nach Hause kommt, um die physiotherapeutische Behandlung durchzuführen. Der Service wird für Patienten angeboten, die aufgrund von Erkrankungen oder Verletzungen eingeschränkt oder nicht in der Lage sind, eine Praxis aufzusuchen.
                   </p>
+                  {/* Button */}
+                  <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
+                    <a className="btn btn-blue blue-hover mt-30">
+                      View More Details
+                    </a>
+                  </Link>
                 </Tab.Pane>
                 {/* END TAB-11 CONTENT */}
               </Tab.Content>

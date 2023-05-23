@@ -1,3 +1,19 @@
 .swiper .sbox-3, .swiper .review-2, .swiper .sbox-5 {
     height: auto;
 }
+
+.custom-wsmainfull, .custom-wsmobileheader {
+    background-color: #7D888E!important;
+}
+
+.custom-footer {
+    background-color: #7D888E!important;
+}
+
+.custom-footer p,.custom-footer a {
+    color: #ffffffbf!important;
+}
+
+.custom-footer .footer-box p span {
+    color: #ffffff!important;
+}
