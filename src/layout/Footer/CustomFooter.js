@@ -46,17 +46,6 @@ const CustomFooter = () => {
                       <i className="fab fa-tumblr" />
                     </a>
                   </li>
-                  {/*
-										<li><a href="#" class="ico-behance"><i class="fab fa-behance"></i></a></li>	
-										<li><a href="#" class="ico-dribbble"><i class="fab fa-dribbble"></i></a></li>											
-										<li><a href="#" class="ico-instagram"><i class="fab fa-instagram"></i></a></li>	
-										<li><a href="#" class="ico-linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-										<li><a href="#" class="ico-pinterest"><i class="fab fa-pinterest-p"></i></a></li>									
-										<li><a href="#" class="ico-youtube"><i class="fab fa-youtube"></i></a></li>											
-										<li><a href="#" class="ico-vk"><i class="fab fa-vk"></i></a></li>
-										<li><a href="#" class="ico-yelp"><i class="fab fa-yelp"></i></a></li>
-										<li><a href="#" class="ico-yahoo"><i class="fab fa-yahoo"></i></a></li>
-									    */}
                 </ul>
               </div>
             </div>
@@ -107,11 +96,11 @@ const CustomFooter = () => {
               {/* Title */}
               <h5 className="h5-xs">Rechliches</h5>
               {/* Text */}
-              <ul class="blog-category-list clearfix">
+              <ul className="blog-category-list clearfix">
                 <li>
                   <Link href="/terms">
                     <a>
-                      <i class="fas fa-angle-double-right blue-color"></i>
+                      <i className="fas fa-angle-double-right blue-color"></i>
                       Datenschutzrichtlinien
                     </a>
                   </Link>
@@ -119,7 +108,7 @@ const CustomFooter = () => {
                 <li>
                   <Link href="/impression">
                     <a>
-                      <i class="fas fa-angle-double-right blue-color"></i>
+                      <i className="fas fa-angle-double-right blue-color"></i>
                       Impressum
                     </a>
                   </Link>
