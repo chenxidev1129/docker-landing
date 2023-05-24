@@ -103,7 +103,7 @@ const AllServicesTabsPanel = () => {
                   {/* Button */}
                   <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
                     <a className="btn btn-blue blue-hover mt-30">
-                      View More Details
+                      Termin buchen
                     </a>
                   </Link>
                 </Tab.Pane>
@@ -127,7 +127,7 @@ const AllServicesTabsPanel = () => {
                   {/* Button */}
                   <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
                     <a className="btn btn-blue blue-hover mt-30">
-                      View More Details
+                      Termin buchen
                     </a>
                   </Link>
                 </Tab.Pane>
@@ -148,7 +148,7 @@ const AllServicesTabsPanel = () => {
                   {/* Button */}
                   <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
                     <a className="btn btn-blue blue-hover mt-30">
-                      View More Details
+                      Termin buchen
                     </a>
                   </Link>
                 </Tab.Pane>
@@ -171,7 +171,7 @@ const AllServicesTabsPanel = () => {
                   {/* Button */}
                   <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
                     <a className="btn btn-blue blue-hover mt-30">
-                      View More Details
+                      Termin buchen
                     </a>
                   </Link>
                 </Tab.Pane>
@@ -193,7 +193,7 @@ const AllServicesTabsPanel = () => {
                   {/* Button */}
                   <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
                     <a className="btn btn-blue blue-hover mt-30">
-                      View More Details
+                      Termin buchen
                     </a>
                   </Link>
                 </Tab.Pane>
@@ -216,7 +216,7 @@ const AllServicesTabsPanel = () => {
                   {/* Button */}
                   <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
                     <a className="btn btn-blue blue-hover mt-30">
-                      View More Details
+                      Termin buchen
                     </a>
                   </Link>
                 </Tab.Pane>
@@ -237,7 +237,7 @@ const AllServicesTabsPanel = () => {
                   {/* Button */}
                   <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
                     <a className="btn btn-blue blue-hover mt-30">
-                      View More Details
+                      Termin buchen
                     </a>
                   </Link>
                 </Tab.Pane>
@@ -259,7 +259,7 @@ const AllServicesTabsPanel = () => {
                   {/* Button */}
                   <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
                     <a className="btn btn-blue blue-hover mt-30">
-                      View More Details
+                      Termin buchen
                     </a>
                   </Link>
                 </Tab.Pane>
@@ -281,7 +281,7 @@ const AllServicesTabsPanel = () => {
                   {/* Button */}
                   <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
                     <a className="btn btn-blue blue-hover mt-30">
-                      View More Details
+                      Termin buchen
                     </a>
                   </Link>
                 </Tab.Pane>
@@ -302,7 +302,7 @@ const AllServicesTabsPanel = () => {
                   {/* Button */}
                   <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
                     <a className="btn btn-blue blue-hover mt-30">
-                      View More Details
+                      Termin buchen
                     </a>
                   </Link>
                 </Tab.Pane>
@@ -323,7 +323,7 @@ const AllServicesTabsPanel = () => {
                   {/* Button */}
                   <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
                     <a className="btn btn-blue blue-hover mt-30">
-                      View More Details
+                      Termin buchen
                     </a>
                   </Link>
                 </Tab.Pane>

@@ -20,7 +20,7 @@ const ImpressionPanel = () => {
                                     Kolonnenstraße 60, 10827 Berlin
                                 </p>
                                 <p>
-                                    Mail@physio-stützpunkt.de
+                                    mail@physio-stuetzpunkt.de
                                 </p>
                                 <p>
                                     +49 30 60977359

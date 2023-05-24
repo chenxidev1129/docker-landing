@@ -18,36 +18,6 @@ const CustomFooter = () => {
                 height={40}
                 alt="footer-logo"
               />
-              {/* Text */}
-              <p className="p-sm mt-20">
-                Aliquam orci nullam tempor sapien gravida donec an enim ipsum
-                porta justo at velna auctor congue
-              </p>
-              {/* Social Icons */}
-              <div className="footer-socials-links mt-20">
-                <ul className="foo-socials text-center clearfix">
-                  <li>
-                    <a href="#" className="ico-facebook">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="ico-twitter">
-                      <i className="fab fa-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="ico-google-plus">
-                      <i className="fab fa-google-plus-g" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="ico-tumblr">
-                      <i className="fab fa-tumblr" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
             </div>
           </div>
           {/* FOOTER CONTACTS */}
@@ -60,7 +30,7 @@ const CustomFooter = () => {
               <p>Kolonnenstraße 60, 10827 Berlin</p>
               {/* Email */}
               <p className="foo-email mt-20">
-                E:
+                E-Mail: 
                 <Link href="#">
                   <a
                     onClick={(e) => {
@@ -68,7 +38,7 @@ const CustomFooter = () => {
                     }}
                     href="mailto:yourdomain@mail.com"
                   >
-                    Mail@physio-stützpunkt.de
+                    mail@physio-stuetzpunkt.de
                   </a>
                 </Link>
               </p>

@@ -133,7 +133,7 @@ const TermsPanel = () => {
                                     Sie haben zudem das Recht, jederzeit gegen die Verarbeitung Ihrer personenbezogenen Daten Widerspruch zu erheben, sofern ein Widerspruchsrecht gesetzlich vorgesehen ist. Im Falle eines wirksamen Widerrufs werden Ihre personenbezogenen Daten ebenfalls automatisch durch uns gelöscht (Art. 21 DSGVO).
                                 </p>
                                 <p>
-                                    Möchten Sie von Ihrem Widerrufs- oder Widerspruchsrecht Gebrauch machen, genügt eine E-Mail an: Mail@physio-stützpunkt.de.
+                                    Möchten Sie von Ihrem Widerrufs- oder Widerspruchsrecht Gebrauch machen, genügt eine E-Mail an: mail@physio-stuetzpunkt.de.
                                 </p>
                                 <p>
                                     Bei Verstößen gegen die datenschutzrechtlichen Vorschriften haben Sie gem. Art. 77 DSGVO die Möglichkeit, Beschwerde bei einer Aufsichtsbehörde zu erheben.
@@ -205,7 +205,7 @@ const TermsPanel = () => {
                                     Kolonnenstraße 60, 10827 Berlin
                                 </p>
                                 <p>
-                                    Mail@physio-stützpunkt.de
+                                    mail@physio-stuetzpunkt.de
                                 </p>
                                 <p>
                                     +49 30 60977359
