@@ -32,7 +32,7 @@ const HeroPanel = () => {
                     {/* HERO IMAGE */}
                     <div className="col-md-4 col-lg-5 col-xl-6">
                         <div className="hero-1-img text-center">
-                            <img className="img-fluid" src="images/hero-1-img.png" alt="hero-image" style={{display: 'none'}} />
+                            <img className="img-fluid" src="images/hero-1-img.png" alt="hero-image" style={{ opacity: 0 }} />
                         </div>
                     </div>
                 </div>
