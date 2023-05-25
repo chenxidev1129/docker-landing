@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroPanel = () => {
     return (
-        <section id="hero-1" className="bg-fixed hero-section division">
+        <section id="custom-hero" className="bg-fixed hero-section division">
             <div className="container">
                 <div className="row d-flex align-items-center">
                     {/* HERO TEXT */}
@@ -11,22 +11,19 @@ const HeroPanel = () => {
                         <div className="hero-txt mb-40">
                             {/* Title */}
                             <h5 className="steelblue-color">
-                                Welcome To Our Clinic
+                                Herzlich willkommen
                             </h5>
                             <h2 className="steelblue-color">
-                                Take Care of Your Health
+                                Ihr Weg zu optimaler Gesundheit
                             </h2>
                             {/* Text */}
                             <p className="p-md">
-                                Premium landing page template created to offer a
-                                perfect solution for medical clinics, hospitals,
-                                personal doctors and everyone else involved in
-                                health services.
+                                In unserer Praxis erwarten Sie hochwertig qualifizierte Physiotherapeuten. Unsere Ziele bestehen darin, nicht nur Ihre Beschwerden, sondern auch deren Ursprung zu behandeln und durch Prävention vorzubeugen.
                             </p>
                             {/* Button */}
                             <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
                                 <a className="btn btn-blue blue-hover">
-                                    More About Clinic
+                                    Termin buchen
                                 </a>
                             </Link>
                         </div>
@@ -35,11 +32,7 @@ const HeroPanel = () => {
                     {/* HERO IMAGE */}
                     <div className="col-md-4 col-lg-5 col-xl-6">
                         <div className="hero-1-img text-center">
-                            <img
-                                className="img-fluid"
-                                src="images/hero-1-img.png"
-                                alt="hero-image"
-                            />
+                            <img className="img-fluid" src="images/hero-1-img.png" alt="hero-image" />
                         </div>
                     </div>
                 </div>

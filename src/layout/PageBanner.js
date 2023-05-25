@@ -10,7 +10,7 @@ const PageBanner = ({ pageTitle, motherTitle, url }) => {
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
-                    <Link href="/demo-1">Home</Link>
+                    <Link href="/">Home</Link>
                   </li>
                   {motherTitle && (
                     <li className="breadcrumb-item">

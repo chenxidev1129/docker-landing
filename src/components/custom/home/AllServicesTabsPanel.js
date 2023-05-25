@@ -297,7 +297,7 @@ const AllServicesTabsPanel = () => {
                   <h3 className="h3-md steelblue-color">Kältetherapie</h3>
                   {/* Text */}
                   <p>
-                    Die Kältetherapie ist eine medizinische Anwendung, bei der Kälte zur Behandlung von Verletzungen und Schmerzen eingesetzt wird.Die Kälte wirkt entzündungshemmend und schmerzlindernd, da sie die Durchblutung reduziert und dadurch Schwellungen und Entzündungen abbaut. Die Behandlung kann auch die Muskelsteifigkeit verringern und die Erholung von Verletzungen oder Operationen beschleunigen.
+                    Die Kältetherapie ist eine medizinische Anwendung, bei der Kälte zur Behandlung von Verletzungen und Schmerzen eingesetzt wird. Die Kälte wirkt entzündungshemmend und schmerzlindernd, da sie die Durchblutung reduziert und dadurch Schwellungen und Entzündungen abbaut. Die Behandlung kann auch die Muskelsteifigkeit verringern und die Erholung von Verletzungen oder Operationen beschleunigen.
                   </p>
                   {/* Button */}
                   <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
