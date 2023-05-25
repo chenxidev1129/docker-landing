@@ -1,19 +1,46 @@
-.swiper .sbox-3, .swiper .review-2, .swiper .sbox-5 {
+.swiper .sbox-3,
+.swiper .review-2,
+.swiper .sbox-5 {
     height: auto;
 }
 
-.custom-wsmainfull, .custom-wsmobileheader {
-    background-color: #7D888E!important;
+.custom-wsmainfull,
+.custom-wsmobileheader {
+    background-color: #7D888E !important;
 }
 
 .custom-footer {
-    background-color: #7D888E!important;
+    background-color: #7D888E !important;
 }
 
-.custom-footer p,.custom-footer a {
-    color: #ffffffbf!important;
+.custom-footer p,
+.custom-footer a {
+    color: #ffffffbf !important;
 }
 
 .custom-footer .footer-box p span {
-    color: #ffffff!important;
+    color: #ffffff !important;
+}
+
+.modal {
+    background-color: #0000009c;
+}
+
+.modal-xl {
+    max-width: 1200px;
+}
+
+.modal-dialog-bottom {
+    min-height: calc(100% - (1.75rem * 2));
+    display: flex;
+    align-items: end;
+}
+
+.modal.show {
+    display: block;
+}
+
+.modal-body {
+    height: 200px;
+    overflow: auto;
 }
