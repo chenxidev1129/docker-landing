@@ -21,7 +21,7 @@ const CookieConsentPanel = () => {
     return (
         <>
             {showConsent && (
-                <div className={`modal ${showConsent ? 'show' : ''}`} tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+                <div className={`modal ${showConsent ? 'show' : ''}`} tabIndex={-1} role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
                     <div className="modal-dialog modal-xl modal-dialog-bottom" role="document">
                         <div className="modal-content">
                             <div className="modal-header">
