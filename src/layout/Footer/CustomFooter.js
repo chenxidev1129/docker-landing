@@ -38,7 +38,7 @@ const CustomFooter = () => {
                     }}
                     href="mailto:yourdomain@mail.com"
                   >
-                    mail@physio-stuetzpunkt.de
+                    mail@xn--physio-sttzpunkt-rzb.de
                   </a>
                 </Link>
               </p>

@@ -8,15 +8,6 @@ const CustomHeader = ({ toggleMenu, toggle }) => {
         <header id="header" className="header">
             {/* MOBILE HEADER */}
             <div className="wsmobileheader clearfix custom-wsmobileheader-no">
-                <Link href="/">
-                    <a
-                        id="wsnavtoggle"
-                        onClick={() => toggleMenu()}
-                        className="wsanimated-arrow"
-                    >
-                        <span />
-                    </a>
-                </Link>
                 <span className="smllogo">
                     <Image
                         src="/images/custom/icon-big-black.png"
@@ -25,11 +16,13 @@ const CustomHeader = ({ toggleMenu, toggle }) => {
                         alt="mobile-logo"
                     />
                 </span>
-                <Link href="#">
-                    <a href="tel:123456789" className="callusbtn">
-                        <i className="fas fa-phone" />
-                    </a>
-                </Link>
+
+                <div className="language-mobile-section">
+                    <select className="custom-select">
+                        <option value="ge">GE</option>
+                        <option value="en">EN</option>
+                    </select>
+                </div>
             </div>
             {/* HEADER STRIP */}
             <div className="headtoppart bg-blue clearfix">
@@ -91,6 +84,12 @@ const CustomHeader = ({ toggleMenu, toggle }) => {
                                 alt="header-logo"
                             />
                         </Link>
+                    </div>
+                    <div className="language-desktop-section">
+                        <select className="custom-select">
+                            <option value="ge">GE</option>
+                            <option value="en">EN</option>
+                        </select>
                     </div>
                 </div>
             </div>

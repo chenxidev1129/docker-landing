@@ -49,3 +49,15 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('/images/custom/main-banner.jpg');
     padding-top: 30px;
 }
+
+.language-mobile-section {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.language-desktop-section {
+    padding: 16px 0px 0px 0px;
+    margin: 0;
+    float: right;
+}
