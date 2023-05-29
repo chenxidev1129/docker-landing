@@ -11,12 +11,7 @@ const AllServicesTabsPanel = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    const fetchServices = async () => {
-      const translatedServices = await t('services', { returnObjects: true });
-      setServices(translatedServices);
-    };
-
-    fetchServices();
+    setServices(t('services', { returnObjects: true }));
   }, [i18n.language]);
 
   return (

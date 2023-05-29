@@ -52,12 +52,22 @@
 
 .language-mobile-section {
     position: absolute;
-    top: 20px;
+    top: 25px;
     right: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
 
 .language-desktop-section {
-    padding: 16px 0px 0px 0px;
+    padding: 25px 0px 0px 0px;
     margin: 0;
     float: right;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.locale-section > a.active {
+    color: red;
 }

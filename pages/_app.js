@@ -4,6 +4,7 @@ import Preloader from "../src/components/Preloader";
 import { animation } from "../src/utils";
 import "../styles/globals.css";
 import "../styles/custom.css";
+import { appWithTranslation } from 'next-i18next';
 
 function MyApp({ Component, pageProps }) {
   const [loader, setLoader] = useState(true);
@@ -40,4 +41,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default appWithTranslation(MyApp);

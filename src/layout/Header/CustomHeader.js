@@ -2,8 +2,12 @@ import Link from "next/link";
 import React from "react";
 import MobileMenu from "../MobileMenu";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const CustomHeader = ({ toggleMenu, toggle }) => {
+    const router = useRouter();
+    const { locale } = router;
+
     return (
         <header id="header" className="header">
             {/* MOBILE HEADER */}
@@ -17,11 +21,14 @@ const CustomHeader = ({ toggleMenu, toggle }) => {
                     />
                 </span>
 
-                <div className="language-mobile-section">
-                    <select className="custom-select">
-                        <option value="ge">GE</option>
-                        <option value="en">EN</option>
-                    </select>
+                <div className="locale-section language-mobile-section">
+                    <Link href={router.asPath} locale="de">
+                        <a className={locale === 'de' ? 'active' : ''}>GE</a>
+                    </Link>
+                    |
+                    <Link href={router.asPath} locale="en">
+                        <a className={locale === 'en' ? 'active' : ''}>EN</a>
+                    </Link>
                 </div>
             </div>
             {/* HEADER STRIP */}
@@ -85,11 +92,14 @@ const CustomHeader = ({ toggleMenu, toggle }) => {
                             />
                         </Link>
                     </div>
-                    <div className="language-desktop-section">
-                        <select className="custom-select">
-                            <option value="ge">GE</option>
-                            <option value="en">EN</option>
-                        </select>
+                    <div className="locale-section language-desktop-section">
+                        <Link href={router.asPath} locale="de">
+                            <a className={locale === 'de' ? 'active' : ''}>German</a>
+                        </Link>
+                        |
+                        <Link href={router.asPath} locale="en">
+                            <a className={locale === 'en' ? 'active' : ''}>English</a>
+                        </Link>
                     </div>
                 </div>
             </div>

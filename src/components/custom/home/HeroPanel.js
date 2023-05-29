@@ -1,7 +1,10 @@
 import Link from "next/link";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const HeroPanel = () => {
+    const { t } = useTranslation();
+
     return (
         <section id="custom-hero" className="bg-fixed hero-section division">
             <div className="container">
@@ -11,19 +14,19 @@ const HeroPanel = () => {
                         <div className="hero-txt mb-40">
                             {/* Title */}
                             <h5 className="steelblue-color">
-                                Herzlich willkommen
+                                {t("hero.header")}
                             </h5>
                             <h2 className="steelblue-color">
-                                Ihr Weg zu optimaler Gesundheit
+                                {t("hero.title")}
                             </h2>
                             {/* Text */}
                             <p className="p-md">
-                                In unserer Praxis erwarten Sie hochwertig qualifizierte Physiotherapeuten. Unsere Ziele bestehen darin, nicht nur Ihre Beschwerden, sondern auch deren Ursprung zu behandeln und durch Prävention vorzubeugen.
+                                {t("hero.description")}
                             </p>
                             {/* Button */}
                             <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
                                 <a className="btn btn-blue blue-hover">
-                                    Termin buchen
+                                    {t("hero.action")}
                                 </a>
                             </Link>
                         </div>

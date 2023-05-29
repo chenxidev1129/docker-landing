@@ -1,0 +1,87 @@
+{
+    "hero": {
+        "header": "Welcome",
+        "title": "Health for Life", 
+        "description":"In our clinic you can expect high quality qualified physiotherapists. Our goals are to treat not only your complaints, but also their causes and to help through prevention.", 
+        "action": "Book an appointment"
+    },
+    "services": [
+        {
+            "title": "Physiotherapy",
+            "description": "Physiotherapy is a form of therapy in which movements are used specifically to mobilise and strengthen the body. The aim of physiotherapy is to relieve pain, improve mobility, correct posture and strengthen the muscles. Classical physiotherapy includes exercises to strengthen and stretch the muscles, which stabilise posture.Physiotherapy is always individually tailored to the needs of the patient and is based on the complaints and goals of the therapy process.",
+            "action": "Book an appointment"
+        },
+        {
+            "title": "Manual Therapy",
+            "description": "Manual therapy is a physiotherapeutic treatment method in which the therapist uses his hands specifically to treat pain and movement restrictions. Various techniques are used, such as mobilisation and manipulation of joints, stretching of muscles and fascia, as well as special grip techniques to release tension and adhesions. The aim of manual therapy is to improve the mobility of joints and soft tissues, relieve pain and restore the function of the musculoskeletal system.",
+            "action": "Book an appointment"
+        },
+        {
+            "title": "Sports Physiotherapy",
+            "description": "Sports physiotherapy specialises in the treatment and care of athletes and sports enthusiasts. The physiotherapist helps prevent injuries, optimise their physical performance and treat injuries that may occur during training or competition.",
+            "action": "Book an appointment"
+        },
+        {
+            "title": "Kinesio-Taping",
+            "description": "Kinesio taping is a form of therapy based on the use of elastic tapes that are stuck to the skin. These tapes are designed to help relieve pain, reduce inflammation, improve muscle function and increase range of motion. By applying the tape to specific areas of the body, muscle tension can be reduced and blood circulation can be promoted. In addition, the tape can be used to support recovery after injuries, operations or chronic illnesses.",
+            "action": "Book an appointment"
+        },
+        {
+            "title": "Manual Lymphatic Drainage",
+            "description": "Manual lymphatic drainage is a special form of massage that aims to stimulate the body's lymphatic system. It involves gentle, rhythmic movements by the therapist to stimulate the flow of lymph and thus improve the absorption of lymphatic fluid and detoxification of the body. The therapy is often used for disorders of the lymphatic system, for example lymphoedema or swelling. Stimulation of the lymphatic system can relieve pain and swelling.",
+            "action": "Book an appointment"
+        },
+        {
+            "title": "Classical, medical massages",
+            "description": "Classic, medical massages are a form of manual therapy used to treat physical ailments. These massages use various techniques such as kneading, stroking, tapping and pressure to relieve muscle tension and pain and improve circulation. Classic, medical massages can help with many ailments, such as back pain, tension in the neck and shoulder area, headaches or even post-operative pain.",
+            "action": "Book an appointment"
+        },
+        {
+            "title": "CMD",
+            "description": "Craniomandibular dysfunction (CMD) is a disorder that occurs in relation to the jaw joint and the surrounding muscles, nerves and blood vessels. CMD can cause various symptoms, such as pain in the jaw, neck, headaches, dizziness or tinnitus. Causes of CMD often include misaligned teeth, stress, injury or overuse of the jaw muscles. Treatment of CMD often involves a combination of therapies such as manual therapy, classical physiotherapy as well as muscle relaxation techniques.",
+            "action": "Book an appointment"
+        },
+        {
+            "title": "Electrotherapy",
+            "description": "Electrotherapy is a physiotherapy treatment method that uses electrical current to stimulate tissues in the body. Electrical impulses are targeted to specific areas of the body to relieve pain, improve muscle strength, increase circulation and fight inflammation.",
+            "action": "Book an appointment"
+        },
+        {
+            "title": "Heat Therapy",
+            "description": "Heat therapy is a way of treating pain or injury through the application of heat. Heat can be applied to the body in a variety of ways, such as warm compresses or infrared radiation.Heat helps to improve circulation and relax muscles, which relieves pain and promotes healing.",
+            "action": "Book an appointment"
+        },
+        {
+            "title": "Cold Therapy",
+            "description": "Cold therapy is a medical application in which cold is used to treat injuries and pain. The cold has an anti-inflammatory and pain-relieving effect as it reduces blood flow, thereby reducing swelling and inflammation. The treatment can also reduce muscle stiffness and speed recovery from injury or surgery.",
+            "action": "Book an appointment"
+        },
+        {
+            "title": "Home visits",
+            "description": "Physiotherapy home visits are a form of outpatient care where a physiotherapist comes directly to the patient's home to provide physiotherapy treatment. The service is offered to patients who are limited or unable to attend a practice due to illness or injury.",
+            "action": "Book an appointment"
+        }
+    ],
+    "footer": {
+        "address": {
+            "name": "Address",
+            "address1": "Physiotherapie Stützpunkt Berlin",
+            "address2": "Kolonnenstraße 60, 10827 Berlin"
+        },
+        "working_time": {
+            "name": "Opening hours",
+            "closed_title": "Closed"
+        },
+        "policy": {
+            "name": "Legal",
+            "link1": "Privacy Policy",
+            "link2": "Legal Notice"
+        }
+    },
+    "cookie": {
+        "title": "Cookies Consent",
+        "content": "Auf unserer Webseite verwenden wir ausschließlich notwendige Cookies, um Ihnen eine optimale Nutzungserfahrung zu ermöglichen. Diese Cookies sind für den Betrieb der Webseite unbedingt erforderlich und können nicht deaktiviert werden. Sie speichern keine persönlichen Informationen und werden nur für den Zeitraum Ihres Besuchs auf unserer Webseite gespeichert. <br/>Indem Sie unsere Webseite weiterhin nutzen, erklären Sie sich mit der Verwendung dieser notwendigen Cookies einverstanden. Wenn Sie diese Cookies deaktivieren möchten, können Sie dies in den Einstellungen Ihres Browsers tun. Bitte beachten Sie jedoch, dass dies die Funktionalität und Darstellung unserer Webseite beeinträchtigen kann. <br/>Wir verwenden keine Marketing-Cookies oder Cookies von Drittanbietern, die Ihr Surfverhalten verfolgen oder persönliche Daten sammeln. Unser Ziel ist es, Ihre Privatsphäre zu schützen und Ihnen eine sichere und benutzerfreundliche Webseite anzubieten. <br/>Wenn Sie Fragen zur Verwendung von Cookies auf unserer Webseite haben, können Sie sich gerne an uns wenden. Vielen Dank für Ihr Verständnis und Ihre Zustimmung zur Verwendung notwendiger Cookies.",
+        "agree_title": "Zustimmen",
+        "cancel_title": "Ablehnen"
+    }
+}

@@ -1,7 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { useTranslation } from "react-i18next";
 const CustomFooter = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="wide-40 footer division custom-footer-no">
       <div className="container">
@@ -24,13 +27,13 @@ const CustomFooter = () => {
           <div className="col-md-6 col-lg-3">
             <div className="footer-box mb-40">
               {/* Title */}
-              <h5 className="h5-xs">Adresse</h5>
+              <h5 className="h5-xs">{t("footer.address.name")}</h5>
               {/* Address */}
-              <p>Physiotherapie Stützpunkt Berlin</p>
-              <p>Kolonnenstraße 60, 10827 Berlin</p>
+              <p>{t("footer.address.address1")}</p>
+              <p>{t("footer.address.address2")}</p>
               {/* Email */}
               <p className="foo-email mt-20">
-                E-Mail: 
+                E-Mail:
                 <Link href="#">
                   <a
                     onClick={(e) => {
@@ -50,13 +53,13 @@ const CustomFooter = () => {
           <div className="col-md-6 col-lg-3">
             <div className="footer-box mb-40">
               {/* Title */}
-              <h5 className="h5-xs">Öffnungszeiten</h5>
+              <h5 className="h5-xs">{t("footer.working_time.name")}</h5>
               {/* Working Hours */}
               <p className="p-sm">
                 Mo - Fr - <span>8:00 AM - 6:00 PM</span>
               </p>
               <p className="p-sm">
-                Sat - Sun - <span>Closed</span>
+                Sat - Sun - <span>{t("footer.working_time.closed_title")}</span>
               </p>
             </div>
           </div>
@@ -64,14 +67,14 @@ const CustomFooter = () => {
           <div className="col-md-6 col-lg-3">
             <div className="footer-box mb-40 flex flex-col">
               {/* Title */}
-              <h5 className="h5-xs">Rechliches</h5>
+              <h5 className="h5-xs">{t("footer.policy.name")}</h5>
               {/* Text */}
               <ul className="blog-category-list clearfix">
                 <li>
                   <Link href="/terms">
                     <a>
                       <i className="fas fa-angle-double-right blue-color"></i>
-                      Datenschutzrichtlinien
+                      {t("footer.policy.link1")}
                     </a>
                   </Link>
                 </li>
@@ -79,7 +82,7 @@ const CustomFooter = () => {
                   <Link href="/impression">
                     <a>
                       <i className="fas fa-angle-double-right blue-color"></i>
-                      Impressum
+                      {t("footer.policy.link2")}
                     </a>
                   </Link>
                 </li>
