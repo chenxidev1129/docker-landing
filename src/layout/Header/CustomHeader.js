@@ -2,13 +2,9 @@ import Link from "next/link";
 import React from "react";
 import MobileMenu from "../MobileMenu";
 import Image from "next/image";
-import { useRouter } from "next/router";
 import LanguageSwitch from "../../components/custom/home/LanguageSwitch";
 
 const CustomHeader = ({ toggleMenu, toggle }) => {
-    const router = useRouter();
-    const { locale } = router;
-
     return (
         <header id="header" className="header">
             {/* MOBILE HEADER */}
@@ -21,16 +17,7 @@ const CustomHeader = ({ toggleMenu, toggle }) => {
                         alt="mobile-logo"
                     />
                 </span>
-
-                <div className="locale-section language-mobile-section">
-                    <Link href="{router.asPath}" locale="de">
-                        <a className={locale === 'de' ? 'active' : ''}>GE</a>
-                    </Link>
-                    |
-                    <Link href="{router.asPath}" locale="en">
-                        <a className={locale === 'en' ? 'active' : ''}>EN</a>
-                    </Link>
-                </div>
+                <LanguageSwitch />
             </div>
             {/* HEADER STRIP */}
             <div className="headtoppart bg-blue clearfix">
