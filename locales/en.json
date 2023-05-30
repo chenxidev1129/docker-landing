@@ -70,6 +70,9 @@
         },
         "working_time": {
             "name": "Opening hours",
+            "working_day": "Mo - Fr - ",
+            "working_time": "8:00 AM - 6:00 PM",
+            "closed_day": "Sat - Sun - ",
             "closed_title": "Closed"
         },
         "policy": {

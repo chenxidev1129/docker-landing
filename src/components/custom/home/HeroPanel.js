@@ -1,9 +1,17 @@
 import Link from "next/link";
-import React from "react";
-import { useTranslation } from "react-i18next";
+import React, { useEffect, useState } from "react";
+import { getTranslations } from "../../../../utils/translationUtils";
+import { useContext } from "react";
+import LanguageContext from "../../../contexts/LanguageContext";
 
 const HeroPanel = () => {
-    const { t } = useTranslation();
+    const { currentLanguage } = useContext(LanguageContext);
+    const [hero, setHero] = useState({});
+
+    useEffect(() => {
+        const translations = getTranslations(currentLanguage);
+        setHero(translations.hero);
+    }, [currentLanguage]);
 
     return (
         <section id="custom-hero" className="bg-fixed hero-section division">
@@ -14,19 +22,19 @@ const HeroPanel = () => {
                         <div className="hero-txt mb-40">
                             {/* Title */}
                             <h5 className="steelblue-color">
-                                {t("hero.header")}
+                                {hero.header}
                             </h5>
                             <h2 className="steelblue-color">
-                                {t("hero.title")}
+                                {hero.title}
                             </h2>
                             {/* Text */}
                             <p className="p-md">
-                                {t("hero.description")}
+                                {hero.description}
                             </p>
                             {/* Button */}
                             <Link href="https://www.doctolib.de/praxis/berlin/physiotherapie-stuetzpunkt-berlin">
                                 <a className="btn btn-blue blue-hover">
-                                    {t("hero.action")}
+                                    {hero.action}
                                 </a>
                             </Link>
                         </div>

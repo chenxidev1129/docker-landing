@@ -4,7 +4,7 @@ import Preloader from "../src/components/Preloader";
 import { animation } from "../src/utils";
 import "../styles/globals.css";
 import "../styles/custom.css";
-import { appWithTranslation } from 'next-i18next';
+import { LanguageProvider } from "../src/contexts/LanguageContext";
 
 function MyApp({ Component, pageProps }) {
   const [loader, setLoader] = useState(true);
@@ -36,9 +36,11 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="images/custom/icon-small.png" type="image/x-icon"></link>
       </Head>
       {loader && <Preloader />}
-      <Component {...pageProps} />
+      <LanguageProvider>
+        <Component {...pageProps} />
+      </LanguageProvider>
     </Fragment>
   );
 }
 
-export default appWithTranslation(MyApp);
+export default MyApp;

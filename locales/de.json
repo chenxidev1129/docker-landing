@@ -70,6 +70,9 @@
         },
         "working_time": {
             "name": "Öffnungszeiten",
+            "working_day": "Mo. - Fr. ",
+            "working_time": "8:00 - 16:00",
+            "closed_day": "Sa. - So. ",
             "closed_title": "geschlossen"
         },
         "policy": {

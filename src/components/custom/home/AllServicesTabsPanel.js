@@ -1,23 +1,19 @@
 import Link from "next/link";
-import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { Nav, Tab } from "react-bootstrap";
-import { useTranslation } from "react-i18next";
+import { getTranslations } from "../../../../utils/translationUtils";
+import { useContext } from "react";
+import LanguageContext from "../../../contexts/LanguageContext";
 
 const AllServicesTabsPanel = () => {
-  const { t, i18n } = useTranslation();
-
+  const { currentLanguage } = useContext(LanguageContext);
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    const fetchServices = async () => {
-      const translatedServices = await t('services', { returnObjects: true });
-      setServices(translatedServices);
-    };
-
-    fetchServices();
-  }, [i18n.language]);
+    const translations = getTranslations(currentLanguage);
+    setServices(translations.services);
+  }, [currentLanguage]);
 
   return (
     <section id="tabs-2" className="wide-100 tabs-section division">

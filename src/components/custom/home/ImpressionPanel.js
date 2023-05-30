@@ -20,7 +20,7 @@ const ImpressionPanel = () => {
                                     Kolonnenstraße 60, 10827 Berlin
                                 </p>
                                 <p>
-                                    mail@xn--physio-sttzpunkt-rzb.de
+                                    mail@physio-stützpunkt.de
                                 </p>
                                 <p>
                                     +49 30 60977359

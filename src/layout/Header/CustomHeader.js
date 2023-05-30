@@ -3,6 +3,7 @@ import React from "react";
 import MobileMenu from "../MobileMenu";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import LanguageSwitch from "../../components/custom/home/LanguageSwitch";
 
 const CustomHeader = ({ toggleMenu, toggle }) => {
     const router = useRouter();
@@ -22,11 +23,11 @@ const CustomHeader = ({ toggleMenu, toggle }) => {
                 </span>
 
                 <div className="locale-section language-mobile-section">
-                    <Link href={router.asPath} locale="de">
+                    <Link href="{router.asPath}" locale="de">
                         <a className={locale === 'de' ? 'active' : ''}>GE</a>
                     </Link>
                     |
-                    <Link href={router.asPath} locale="en">
+                    <Link href="{router.asPath}" locale="en">
                         <a className={locale === 'en' ? 'active' : ''}>EN</a>
                     </Link>
                 </div>
@@ -92,15 +93,7 @@ const CustomHeader = ({ toggleMenu, toggle }) => {
                             />
                         </Link>
                     </div>
-                    <div className="locale-section language-desktop-section">
-                        <Link href={router.asPath} locale="de">
-                            <a className={locale === 'de' ? 'active' : ''}>German</a>
-                        </Link>
-                        |
-                        <Link href={router.asPath} locale="en">
-                            <a className={locale === 'en' ? 'active' : ''}>English</a>
-                        </Link>
-                    </div>
+                    <LanguageSwitch />
                 </div>
             </div>
             <MobileMenu />

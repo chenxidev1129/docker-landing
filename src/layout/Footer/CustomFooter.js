@@ -1,9 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
+import { useState } from "react";
+import { getTranslations } from "../../../utils/translationUtils";
+import { useContext } from "react";
+import LanguageContext from "../../contexts/LanguageContext";
 const CustomFooter = () => {
-  const { t } = useTranslation();
+  const { currentLanguage } = useContext(LanguageContext);
+  const [footer, setFooter] = useState({});
+
+  useEffect(() => {
+    const translations = getTranslations(currentLanguage);
+    setFooter(translations.footer);
+  }, [currentLanguage]);
 
   return (
     <footer className="wide-40 footer division custom-footer-no">
@@ -27,10 +37,10 @@ const CustomFooter = () => {
           <div className="col-md-6 col-lg-3">
             <div className="footer-box mb-40">
               {/* Title */}
-              <h5 className="h5-xs">{t("footer.address.name")}</h5>
+              <h5 className="h5-xs">{footer.address?.name}</h5>
               {/* Address */}
-              <p>{t("footer.address.address1")}</p>
-              <p>{t("footer.address.address2")}</p>
+              <p>{footer.address?.address1}</p>
+              <p>{footer.address?.address2}</p>
               {/* Email */}
               <p className="foo-email mt-20">
                 E-Mail:
@@ -41,7 +51,7 @@ const CustomFooter = () => {
                     }}
                     href="mailto:yourdomain@mail.com"
                   >
-                    mail@xn--physio-sttzpunkt-rzb.de
+                    mail@physio-stützpunkt.de
                   </a>
                 </Link>
               </p>
@@ -53,13 +63,13 @@ const CustomFooter = () => {
           <div className="col-md-6 col-lg-3">
             <div className="footer-box mb-40">
               {/* Title */}
-              <h5 className="h5-xs">{t("footer.working_time.name")}</h5>
+              <h5 className="h5-xs">{footer.working_time?.name}</h5>
               {/* Working Hours */}
               <p className="p-sm">
-                Mo - Fr - <span>8:00 AM - 6:00 PM</span>
+                {footer.working_time?.working_day}<span>8:00 AM - 6:00 PM</span>
               </p>
               <p className="p-sm">
-                Sat - Sun - <span>{t("footer.working_time.closed_title")}</span>
+                {footer.working_time?.closed_day}<span>{footer.working_time?.closed_title}</span>
               </p>
             </div>
           </div>
@@ -67,14 +77,14 @@ const CustomFooter = () => {
           <div className="col-md-6 col-lg-3">
             <div className="footer-box mb-40 flex flex-col">
               {/* Title */}
-              <h5 className="h5-xs">{t("footer.policy.name")}</h5>
+              <h5 className="h5-xs">{footer.policy?.name}</h5>
               {/* Text */}
               <ul className="blog-category-list clearfix">
                 <li>
                   <Link href="/terms">
                     <a>
                       <i className="fas fa-angle-double-right blue-color"></i>
-                      {t("footer.policy.link1")}
+                      {footer.policy?.link1}
                     </a>
                   </Link>
                 </li>
@@ -82,7 +92,7 @@ const CustomFooter = () => {
                   <Link href="/impression">
                     <a>
                       <i className="fas fa-angle-double-right blue-color"></i>
-                      {t("footer.policy.link2")}
+                      {footer.policy?.link2}
                     </a>
                   </Link>
                 </li>
