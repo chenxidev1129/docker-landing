@@ -66,7 +66,7 @@ const CustomFooter = () => {
               <h5 className="h5-xs">{footer.working_time?.name}</h5>
               {/* Working Hours */}
               <p className="p-sm">
-                {footer.working_time?.working_day}<span>8:00 AM - 6:00 PM</span>
+                {footer.working_time?.working_day}<span>{footer.working_time?.working_time}</span>
               </p>
               <p className="p-sm">
                 {footer.working_time?.closed_day}<span>{footer.working_time?.closed_title}</span>

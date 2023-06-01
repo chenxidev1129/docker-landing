@@ -71,7 +71,7 @@
         "working_time": {
             "name": "Öffnungszeiten",
             "working_day": "Mo. - Fr. ",
-            "working_time": "8:00 - 16:00",
+            "working_time": "8:00 - 18:00 Uhr",
             "closed_day": "Sa. - So. ",
             "closed_title": "geschlossen"
         },
